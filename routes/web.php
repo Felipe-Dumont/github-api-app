@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GithubUserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [GithubUserController::class, 'index'])->name('index');
+Route::get('/user', [GithubUserController::class, 'getUser'])->name('getUser');
+Route::get('/user/{username}/repositories', [GithubUserController::class, 'showRepositories'])->name('showRepositories');
 
-Route::get('/', function () {
-    return view('welcome');
-});
