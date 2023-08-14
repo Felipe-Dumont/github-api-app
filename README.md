@@ -44,9 +44,15 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/Felipe-Dumont/github-api-app.git
 
 # install dependencies
-$ composer install 
+$ composer install --no-scripts
 # and
 $ npm install 
+
+# Copy the .env.example file
+$ cp .env.example .env
+
+# Create a new key for the application
+php artisan key:generate
 
 # Run the app
 $ php artisan serve
