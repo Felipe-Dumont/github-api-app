@@ -36,7 +36,7 @@ Tambem foi desenvolvida uma outra tela, que mostra o resultado da consulta dos d
 
 ## How To Use
 
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) instalado em seu computador. Na sua linha de comando:
+Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [Composer](https://getcomposer.org/) e [npm](https://www.npmjs.com/) instalados em seu computador. Na sua linha de comando:
 
 ```bash
 # Clone this repository
