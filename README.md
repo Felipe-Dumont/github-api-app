@@ -20,7 +20,6 @@
 
 ![screenshot](https://github.com/Felipe-Dumont/github-api-app/blob/main/public/img/overview2.gif)
 
-- Você pode encontrar uma demo [aqui](https://felipe-dumont.github.io/github-api-app/).
 - Neste projeto tive a experiência de trabalhar com Laravel. Utilizando seus recursos nativos como Blade para trabalhar com templetes HTML, Web Routes para registrar as rotas da aplicação e testes de unidade do PHPUnit para criar uma consulta de dados do GITHUB pelo nome de usuario.
 - Aprendi a trabalhar com a API do GITHUB e utilizar seus dados para criar uma aplicação de consulta visual.
 
